@@ -17,6 +17,9 @@ function displayPosts(posts) {
         const li = document.createElement("li");
         const h1 = document.createElement("h1")
         const p = document.createElement("p");
+        //set content
+        h1.textContent = post.title;
+        p.textContent = post.body;
         
 
     });
