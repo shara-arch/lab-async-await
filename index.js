@@ -20,7 +20,11 @@ function displayPosts(posts) {
         //set content
         h1.textContent = post.title;
         p.textContent = post.body;
-        
+
+        // Append to li
+        li.appendChild(h1);
+        li.appendChild(p);
+       
 
     });
 }
