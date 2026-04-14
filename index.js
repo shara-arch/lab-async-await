@@ -9,3 +9,11 @@ async function fetchPosts() {
     }
     
 }
+//Display posts
+function displayPosts(posts) {
+    const postList = document.getElementById("post-list");
+    posts.forEach(post => {
+       
+
+    });
+}
