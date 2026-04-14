@@ -13,7 +13,11 @@ async function fetchPosts() {
 function displayPosts(posts) {
     const postList = document.getElementById("post-list");
     posts.forEach(post => {
-       
+        //Create elements
+        const li = document.createElement("li");
+        const h1 = document.createElement("h1")
+        const p = document.createElement("p");
+        
 
     });
 }
