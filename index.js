@@ -24,7 +24,8 @@ function displayPosts(posts) {
         // Append to li
         li.appendChild(h1);
         li.appendChild(p);
-       
+        //Append li to ul
+        postList.appendChild(li);
 
     });
 }
